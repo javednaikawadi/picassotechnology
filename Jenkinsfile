@@ -15,5 +15,10 @@ node {
 	Regards,
 	Javed.''', cc: '', from: '', replyTo: '', subject: 'Jenkins Picasso Email', to: 'javednaikawadi@gmail.com'	
    }
+	stage('Slack Notofication'){
+	slackSend baseUrl: 'https://hooks.slack.com/services/', 
+		channel: '#carryin', color: 'good', message: 'Welcomes to Jenkins, Slack!!!', 
+		teamDomain: 'msooffline.slack.com', tokenCredentialId: 'slack-demo'
+	}
 }
 
