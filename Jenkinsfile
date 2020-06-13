@@ -1,7 +1,7 @@
 
 node {
    stage('SCM Checkout'){
-       url: 'https://github.com/javednaikawadi/picassotechnology'
+       git 'https://github.com/javednaikawadi/picassotechnology'
     }
    stage('Compile-Package'){
 	 //get mvn home path
