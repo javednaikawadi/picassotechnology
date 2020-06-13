@@ -13,7 +13,7 @@ node {
 	Welcome!!
 
 	Regards,
-	Javed.''', cc: '', from: '', replyTo: '', subject: 'Jenkins Picasso Email', to: 'javednaikawai@gmail.com'	
+	Javed.''', cc: '', from: '', replyTo: '', subject: 'Jenkins Picasso Email', to: 'javednaikawadi@gmail.com'	
    }
 }
 
